@@ -1,0 +1,1 @@
+Hi, I’m Sam McKenzie, a web development enthusiast learning and building projects through The Odin Project. I enjoy creating clean, functional websites while improving my HTML, CSS, JavaScript, and Git skills.
