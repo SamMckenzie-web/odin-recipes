@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Recipes</title>
+    <style>
+        /* Basic page styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff5e6;
+            color: #333;
+        }
+
+        /* Container for homepage */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* Main heading */
+        h1 {
+            color: #e67e22;
+            margin-bottom: 30px;
+        }
+
+        /* Recipe links */
+        .recipe-link {
+            display: block;
+            margin: 15px 0;
+            font-size: 1.2em;
+            padding: 12px 20px;
+            background: #f39c12;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .recipe-link:hover {
+            background: #d35400;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <h1>Odin Recipeis</h1>
-     <a href="recipies/lasagna.html">lasagna</a>
+    <div class="container">
+        <h1>Odin Recipes</h1>
+        <a class="recipe-link" href="recipies/lasagna.html">Lasagna</a>
+        <!-- Add more recipes here -->
+        <a class="recipe-link" href="#">Spaghetti Bolognese</a>
+        <a class="recipe-link" href="#">Chocolate Cake</a>
+        <a class="recipe-link" href="#">Caesar Salad</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Odin Recipes
+    </footer>
 </body>
 </html>
